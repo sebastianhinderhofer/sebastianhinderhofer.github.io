@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+:root{color-scheme:light dark;--bg:light-dark(#fff,#111);--ink:light-dark(#141414,#ececec);--muted:light-dark(#555,#a9a9a9);--red:#9b1c22;--gold:#d4af37}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+main{max-width:70ch;margin:0 auto;padding:clamp(28px,5vw,64px) max(5vw,16px)}
+header{border-top:6px solid var(--red);padding-top:20px;margin-bottom:28px}
+h1{font-size:clamp(30px,6vw,48px);line-height:1.05;margin:0 0 10px;font-weight:800}
+h2{font-size:22px;margin:36px 0 6px}h3{font-size:17px;margin:22px 0 4px}
+p,li{margin:0 0 10px}.meta{color:var(--muted);font-size:14px}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-size:15px;margin-top:14px}
+a{color:inherit}.accent{color:var(--gold)}
+footer{margin-top:48px;color:var(--muted);font-size:14px;border-top:1px solid color-mix(in srgb,var(--ink) 18%,transparent);padding-top:16px}
